@@ -39,7 +39,7 @@ CREATE TABLE `cmps` (
 --
 
 INSERT INTO `cmps` (`id`, `name`, `cmp`, `username`, `fullname`) VALUES
-(1, 'f', 'f', 'admin', 'Pooja Bhore');
+(1, 'f', 'f', 'admin', 'Sakshi Gaikwad');
 
 -- --------------------------------------------------------
 
@@ -79,7 +79,7 @@ CREATE TABLE `room_rental_registrations` (
 --
 
 INSERT INTO `room_rental_registrations` (`id`, `fullname`, `mobile`, `alternat_mobile`, `email`, `country`, `state`, `city`, `landmark`, `rent`, `sale`, `deposit`, `plot_number`, `rooms`, `address`, `accommodation`, `description`, `image`, `open_for_sharing`, `other`, `vacant`, `created_at`, `updated_at`, `user_id`) VALUES
-(13, 'Pooja Bhore', '9878767656', '7878654565', 'admin@admin.com', 'india', 'Maharashtra', 'Kharadi', 'aaaaaa', '3', '12', '3', '78 nh', '2bhk', 'dsdsd', '4', 'dssd', 'uploads/h1.jpg', NULL, 'zx', 0, '2018-02-16 12:21:43', '2018-02-16 12:21:43', 1),
+(13, 'Ketan Wagle', '9878767656', '7878654565', 'admin@admin.com', 'india', 'Maharashtra', 'Kharadi', 'aaaaaa', '3', '12', '3', '78 nh', '2bhk', 'dsdsd', '4', 'dssd', 'uploads/h1.jpg', NULL, 'zx', 0, '2018-02-16 12:21:43', '2018-02-16 12:21:43', 1),
 (14, 'Shrushti Gaikwad', '2345676997', '', 'sgaikwad@gmail.com', 'india', 'karnataka', 'Belagavi', '', '1232', '12', '33333', '78 nh', '1bhk', 'port road bgm', '', '', 'uploads/h2.jpg', NULL, NULL, 1, '2018-03-09 05:06:43', '2018-03-09 05:06:43', 2),
 (15, 'aaa', '2222222222', '', 'admin@admmmin.com', 'india', 'karnataka', 'Belagavi', '', '1232', '12666', '33333', '78 nh', '1bhk', 'port road bgm', 'wifi,pridge', 'good to see', 'uploads/h3.jpg', NULL, NULL, 1, '2018-04-04 11:19:09', '2018-04-04 11:19:09', 1);
 
@@ -126,7 +126,7 @@ CREATE TABLE `room_rental_registrations_apartment` (
 --
 
 INSERT INTO `room_rental_registrations_apartment` (`id`, `fullname`, `mobile`, `alternat_mobile`, `email`, `country`, `state`, `city`, `landmark`, `rent`, `deposit`, `plot_number`, `apartment_name`, `ap_number_of_plats`, `rooms`, `floor`, `purpose`, `own`, `area`, `address`, `accommodation`, `description`, `image`, `open_for_sharing`, `other`, `vacant`, `created_at`, `updated_at`, `user_id`) VALUES
-(3, 'Pooja', '2345676567', '', 'admin@admddin.com', 'India', 'Maharashtra', 'Pune', 'near ramdev', '1212', '22222', '78 nh', 'mant apartment', '101', '2bhk', '2nd', 'Residential', 'rented', '1sqr feet', 'port road bgm', 'wifi', 'well ', 'uploads/h4.jpg', NULL, NULL, 1, '2018-04-04 11:20:56', '2018-04-04 11:20:56', 1);
+(3, 'Sakshi', '2345676567', '', 'admin@admddin.com', 'India', 'Maharashtra', 'Pune', 'near ramdev', '1212', '22222', '78 nh', 'mant apartment', '101', '2bhk', '2nd', 'Residential', 'rented', '1sqr feet', 'port road bgm', 'wifi', 'well ', 'uploads/h4.jpg', NULL, NULL, 1, '2018-04-04 11:20:56', '2018-04-04 11:20:56', 1);
 
 -- --------------------------------------------------------
 
@@ -152,8 +152,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `fullname`, `mobile`, `username`, `email`, `password`, `created_at`, `updated_at`, `role`, `status`) VALUES
-(1, 'Pooja Bhore', '9879879787', 'admin', 'admin@admin.com', '21232f297a57a5a743894a0e4a801fc3', NULL, NULL, 'admin', 1),
-(2, 'Pooja Bhore', '8787987654', 'pooja', 'psbhore@gmail.com', 'pooja', '2018-02-08 06:53:53', '2018-02-08 06:53:53', 'user', 1);
+(1, 'Sakshi Gaikwad', '9879879787', 'admin', 'admin@admin.com', '21232f297a57a5a743894a0e4a801fc3', NULL, NULL, 'admin', 1),
+(2, 'Sakshi Gaikwad', '8787987654', 'pooja', 'sakshi@gmail.com', 'pooja', '2018-02-08 06:53:53', '2018-02-08 06:53:53', 'user', 1);
 
 --
 -- Indexes for dumped tables
