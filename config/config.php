@@ -3,9 +3,9 @@
 
 	// Define database
 	define('dbhost', 'localhost');
-	define('dbuser', 'id19603917_root');
-	define('dbpass', 'Root@1818');
-	define('dbname', 'id19603917_newrent');
+	define('dbuser', 'root');
+	define('dbpass', '');
+	define('dbname', 'newrent');
 
 	// Connecting database
 	try {
