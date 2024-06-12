@@ -10,6 +10,6 @@ Property Portal is a dynamic web application designed for property rentals, buil
 6. Booking System: Simple and intuitive booking system for tenants to rent properties.
 
 **Technologies Used**
-Backend: PHP, MySQL
-Frontend: HTML, CSS, JavaScript
-Server: XAMPP
+1. Backend: PHP, MySQL
+2. Frontend: HTML, CSS, JavaScript
+3. Server: XAMPP
